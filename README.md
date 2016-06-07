@@ -14,11 +14,11 @@ windows環境下のrubyでocraを用いてコンパイルできます。
 
 ruby 2.1.5, ocra 1.3.5で動作確認しています。
 
-``
-gem install bundler ocra
-bundle install --without development
-ocra --no-autoload --add-all-core --gemfile Gemfile --gem-full arm.rb
-``
+`gem install bundler ocra`
+
+`bundle install --without development`
+
+`ocra --no-autoload --add-all-core --gemfile Gemfile --gem-full arm.rb`
 
 ## Log -ログ- ##
 
