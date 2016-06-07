@@ -16,8 +16,8 @@ ruby 2.1.8で動作確認しています。
 
 ``
 gem install bundler ocra
-bundle install --without development <--path vendor/bundler>
-ocra --no-autoload --add-all-core --gemfile Gemfile --gem-full migrate.rb
+bundle install --without development
+ocra --no-autoload --add-all-core --gemfile Gemfile --gem-full arm.rb
 ``
 
 ## Log -ログ- ##

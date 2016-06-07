@@ -13,7 +13,7 @@ migrate.exe path_to_database.yml<:dbkey(option)> path_to_migrate_dir<:VERSION(op
 It can be compiled using the ocra in ruby under the windows environment.
 
 ``
-ocra --no-autoload --add-all-core --gemfile Gemfile --gem-full migrate.rb
+ocra --no-autoload --add-all-core --gemfile Gemfile --gem-full arm.rb
 ``
 
 ## Log ##
