@@ -12,7 +12,7 @@ migrate.exe database.ymlファイルのパス<:DB設定KEY> migrateディレク�
 
 windows環境下のrubyでocraを用いてコンパイルできます。
 
-ruby 2.1.8で動作確認しています。
+ruby 2.1.5, ocra 1.3.5で動作確認しています。
 
 ``
 gem install bundler ocra
